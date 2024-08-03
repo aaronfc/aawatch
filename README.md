@@ -14,12 +14,20 @@ A simplistic device to keep track of time while I am at the gym.
 	- Button 1: UP (GPIO 37)
 	- Button 2: OK (GPIO 38)
 	- Button 3: DOWN (GPIO 39)
+- Buzzer (passive)
+	- PIN 16
 
 ## Current Features
 - Set countdown time with UP and DOWN buttons. OK to confirm and start timer.
 - Counts down to zero from a set time. OK to stop and go back to setup.
+- Plays final fantasy victory theme when timer reaches zero.
 
 ## Next tasks
-- [ ] Feature: Beep when arriving to zero.
-- [ ] Feature: Intervals mode (workout/rest).
+- [ ] Enhance: Improve tune timing, tones and volume.
+- [ ] Enhance: Split code into multiple files.
 - [ ] Enhance: Improve button handling (high/low, and hold).
+- [ ] Feature: Intervals mode (workout/rest).
+- [ ] Feature: Add main manu.
+
+## References
+- Emulator used to iterate over tune: <https://wokwi.com/projects/405205519060590593>
