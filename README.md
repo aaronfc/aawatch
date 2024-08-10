@@ -22,12 +22,24 @@ A simplistic device to keep track of time while I am at the gym.
 - Counts down to zero from a set time. OK to stop and go back to setup.
 - Plays final fantasy victory theme when timer reaches zero.
 
-## Next tasks
-- [ ] Enhance: Improve tune timing, tones and volume.
+## Tasks Outline
+- [O] Enhance: Improve tune timing, tones and volume.
+	- [X] Understand partiture.
+	- [X] Update code to follow partiture.
+	- [X] Prepare snippet with new approach.
+	- [ ] Replace old approach with new approach in code.
 - [ ] Enhance: Split code into multiple files.
-- [ ] Enhance: Improve button handling (high/low, and hold).
+	- [ ] Extract music playing stuff.
+	- [ ] Extract melodies definitions.
+	- [ ] Extract button handling.
+	- [ ] Extract screen/rendering logic.
+	- [ ] Extract separate scenes.
+- [ ] Enhance: Improve button handling.
+	- [ ] Detect button press by interruption (high/low) transition (not time based).
+	- [ ] Detect holding.
 - [ ] Feature: Intervals mode (workout/rest).
-- [ ] Feature: Add main manu.
+- [ ] Feature: Add main menu.
 
 ## References
-- Emulator used to iterate over tune: <https://wokwi.com/projects/405205519060590593>
+- Original emulator project used to iterate over tune: <https://wokwi.com/projects/405205519060590593>
+- Improved FFVII emulator project (mine): <https://wokwi.com/projects/405828187237249025>
