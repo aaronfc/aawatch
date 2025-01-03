@@ -37,8 +37,10 @@ A simplistic device to keep track of time while I am at the gym.
 - [ ] Enhance: Improve button handling.
 	- [ ] Detect button press by interruption (high/low) transition (not time based).
 	- [ ] Detect holding.
+- [ ] Enhance: Digitalise circuit (try librepcb) instead of the Schematic at the top.
 - [ ] Feature: Intervals mode (workout/rest).
 - [ ] Feature: Add main menu.
+- [ ] Feature: Add counter for current "round".
 
 ## References
 - Original emulator project used to iterate over tune: <https://wokwi.com/projects/405205519060590593>
